@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="app.css">
+
+    <title>R/T-Labs</title>
+</head>
+<body>
+    <nav class="nav-top">
+        <a href="#home">
+            <span>
+                <div class="logo">
+                    <div>R/T Laboratories</div>
+                    <div>& Diagnostics</div> 
+                </div>
+            </span>
+        </a>
+        <ul class="link-nav-top">
+            <li><a href="#find-us">Anfahrt</a></li>
+            <li><a href="#info">Info</a></li>
+        </ul>
+        <a href="#booking"><span class="booking-button-top">Termin buchen</span></a>
+    </nav>
+
+    <main>
+        <section class="heading">
+            <div class="sub-heading">Teststation Ettlingen-Oberweier</div>
+            <h1>Spuck' Dich frei!</h1>
+            <div class="heading-text">
+                <div>Covid-19 <span class="heading-text-highlight">Spucktest</span> Drive-In</div>
+                <div>Keine Stäbchen. Keine Fremdkörper.</div>
+            </div>
+        </section>
+
+        <section class="booking">
+            <h2>Termin wählen:</h2>
+            <form action="/booking">
+                <div class="date-input-container">
+                    <input type="date" name="date" required>
+                </div>
+                <!-- <div>
+                    <select name="time" id="time">
+                        <option value="930">9:30 - 10:00</option>
+                        <option value="930">9:30 - 10:00</option>
+                        <option value="930">9:30 - 10:00</option>
+                        <option value="930">9:30 - 10:00</option>
+                        <option value="930">9:30 - 10:00</option>
+                    </select>
+                </div> -->
+                <div class="booking-free">
+                    <input type="radio" id="item-1" name="booking-item" value="item-1" required>
+                    <label for="item-1"> 9:30 - 10:00</label>
+
+                    <input type="radio" id="item-2" name="booking-item" value="item-2">
+                    <label for="item-2">10:00 - 10:30</label>
+
+                    <input type="radio" id="item-3" name="booking-item" value="item-3">
+                    <label for="item-3">10:30 - 11:00</label>
+
+                    <input type="radio" id="item-4" name="booking-item" value="item-4">
+                    <label for="item-4">11:00 - 11:30</label>
+
+                    <input type="radio" id="item-5" name="booking-item" value="item-5">
+                    <label for="item-5">11:30 - 12:00</label>
+                </div>
+                <div class="booking-button-container">
+                    <button class="booking-button">Weiter</button>
+                </div> 
+            </form>
+        </section>
+
+        <section class="info">
+            <section class="info-station">
+                <div>
+                    <img id="img-stopwatch" src="https://st.depositphotos.com/1001189/4772/v/950/depositphotos_47725713-stock-illustration-5-minutes-timer.jpg" alt="Stoppuhr">
+                </div>
+                <div class="info-textbox">
+                    <h2>Testergebnis in 5 Minuten</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, perspiciatis eligendi expedita quibusdam assumenda et accusantium autem exercitationem ea ipsum fugit nobis veritatis, vel illo itaque nostrum doloribus quis nihil!</p>
+                </div>
+            </section>
+            <section class="info-test">
+                <div class="info-textbox">
+                    <h2>Schonender Spucktest</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, perspiciatis eligendi expedita quibusdam assumenda et accusantium autem exercitationem ea ipsum fugit nobis veritatis, vel illo itaque nostrum doloribus quis nihil!</p>
+                </div>
+                <div>
+                    <img id="img-spitting" src="https://telebasel.ch/wp-content/uploads/2020/12/435278857_highres.jpg" alt="Spucktest">
+                </div>
+            </section>
+            <section class="info-test">
+                <div>
+                    <img id="img-drivein" src="https://blog.nationwide.com/wp-content/uploads/2016/08/pitcrew1-960x638.jpg" alt="Drive-In">
+                </div>
+                <div class="info-textbox">
+                    <h2>Drive-In</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, perspiciatis eligendi expedita quibusdam assumenda et accusantium autem exercitationem ea ipsum fugit nobis veritatis, vel illo itaque nostrum doloribus quis nihil!</p>
+                </div>
+            </section>
+        </section>
+
+        <section class="contact">
+            <div class="address">
+                <h2>Anfahrt</h2>
+                <p>
+                    Anschrift <br> 
+                    Straße und Nummer <br> 
+                    PLZ Ort <br>
+                    <br>
+                    Telefon 
+                </p>
+            </div>
+            <div>
+                <img id="img-maps" src="./images/maps-placeholder.png" alt="Maps">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="#imp">Impressum</a></li>
+            <li><a href="#privacy">Datenschutz</a></li>
+            <li><a href="#login">Zugang</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
