@@ -40,6 +40,25 @@ html {
     font-size: 0.8em;
     font-weight: 700;
     text-transform: uppercase;
+    
+}
+
+.link-nav-top-find {
+    border-bottom: 3px solid white;
+    transition: border-bottom 200ms ease-in-out;
+}
+
+.link-nav-top-find:hover, .link-nav-top-find:focus {
+    border-bottom: 3px solid #153243;
+}
+
+.link-nav-top-info {
+    border-bottom: 3px solid white;
+    transition: border-bottom 200ms ease-in-out;
+}
+
+.link-nav-top-info:hover, .link-nav-top-info:focus {
+    border-bottom: 3px solid #153243;
 }
 
 .booking-button-top {
